@@ -1,6 +1,6 @@
 import java.util.Random;
 public class A {
-    public int[] generateArray(int size){
+    public static int[] generateArray(int size){
         int[] randomArray = new int[size];
         Random rnd = new Random();
         for(int i = 0; i < randomArray.length; i++){

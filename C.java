@@ -1,6 +1,6 @@
 public class C {
     public static int findMinimum(int[] arr) {
-        int minimum = 101;
+        int minimum = -1;
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] < minimum) {
                 minimum = arr[i];
@@ -10,7 +10,7 @@ public class C {
     }
 
     public static int findMaximum(int[] arr) {
-        int maximum = -1;
+        int maximum = 101;
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] > maximum) {
                 maximum = arr[i];
