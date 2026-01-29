@@ -61,5 +61,6 @@ public class B {
             }
 
         }while(choice!=6);
+        System.out.println("You have been succesfully logged off");
     }        
 }
