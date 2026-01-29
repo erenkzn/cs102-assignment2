@@ -1,6 +1,5 @@
 public class D {
-
-    public static int[] displayDiffer(int[] inputArray){
+    public static int[] getDifferArray(int[] inputArray){
         int sum = 0;
         for (int i = 0; i < inputArray.length; i++){
             sum += inputArray[i];
@@ -14,13 +13,4 @@ public class D {
 
         return differArray;
     }
-
-    public static void main(String[] args) {
-        int[] array = {2, 6, 9, 3, 5};
-        int[] differ = displayDiffer(array);
-        for (int i = 0; i < differ.length; i++){
-            System.err.print(differ[i] + " ");
-        } 
-    }
-
 }
