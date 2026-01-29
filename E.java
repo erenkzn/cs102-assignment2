@@ -7,12 +7,12 @@ class E {
 
             for (int i = 0; i < arr.length; i++) {
                 if (isOdd) {
-                    if (i%2 == 0) {
+                    if (i%2 == 1) {
                         result += arr[i];
                     }
                 }
                 else {
-                    if (i%2 == 1) {
+                    if (i%2 == 0) {
                         result += arr[i];
                     }
                 }
